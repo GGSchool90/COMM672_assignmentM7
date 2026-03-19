@@ -134,3 +134,39 @@ padding:10px;
   width: 100%;
   height: auto;
 }
+/* your existing code above */
+
+/* HEADER FIX */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav1 ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  background: orange;
+  padding: 8px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  padding: 10px 40px;
+}
+git add .
+git commit -m "Fix header layout"
+git push
